@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Vehiclecontrol</servlet-name>
+  	<display-name>Vehiclecontrol</display-name>
+  	<description></description>
+  	<servlet-class>com.web.app.control.Vehiclecontrol</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Drivercontrol</servlet-name>
+  	<display-name>Drivercontrol</display-name>
+  	<description></description>
+  	<servlet-class>com.web.app.control.Drivercontrol</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Customercontrol</servlet-name>
+  	<display-name>Customercontrol</display-name>
+  	<description></description>
+  	<servlet-class>com.web.app.control.Customercontrol</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Vehiclecontrol</servlet-name>
+  	<url-pattern>/vehicle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Drivercontrol</servlet-name>
+  	<url-pattern>/driver</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Customercontrol</servlet-name>
+  	<url-pattern>/customer</url-pattern>
+  </servlet-mapping>
+</web-app>
